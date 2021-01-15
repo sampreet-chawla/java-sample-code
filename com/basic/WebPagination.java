@@ -44,6 +44,15 @@ public class WebPagination {
 	    	items.add(new ArrayList<>(Arrays.asList("item1","10","15.01")));
 	    	items.add(new ArrayList<>(Arrays.asList("item2","3","4.99")));
 	    	items.add(new ArrayList<>(Arrays.asList("item3","17","8.66")));
+	    	
+	    	System.out.println("\n\nWeb Pagination Demonstration - using Java Lambda expression and Steam API in Java 8+");
+	    	System.out.println("*****************************************************");
+	    	
+	    	System.out.println("\n\nItem name, Relevance and Price");
+	    	System.out.println("\nSample Input: \n" + items);
+	    	System.out.println("\n\nSample Output with number of items per page as 2\n");
+	    	System.out.println("*****************************************************");
+	    	
 	    	System.out.println("Ascending by name, page 0: " + fetchItemsToDisplay(items, 0, 0, 2, 0));
 	    	System.out.println("Ascending by name, page 1: " + fetchItemsToDisplay(items, 0, 0, 2, 1));
 	    	System.out.println("Descending by name, page 0: " + fetchItemsToDisplay(items, 0, 1, 2, 0));
@@ -58,6 +67,8 @@ public class WebPagination {
 	    	System.out.println("Ascending by price, page 1: " + fetchItemsToDisplay(items, 2, 0, 2, 1));
 	    	System.out.println("Descending by price, page 0: " + fetchItemsToDisplay(items, 2, 1, 2, 0));
 	    	System.out.println("Descending by price, page 1: " + fetchItemsToDisplay(items, 2, 1, 2, 1));
+	    	
+	    	System.out.println("*****************************************************");
 		}
 
 
