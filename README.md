@@ -5,7 +5,7 @@ Java sample code for Azavea job application
 Java Lambda expression and Steam API in Java 8 and above
 
 #### About WebPagination
-WebPagination.java demonstrates the pagination and sorting functionality of Java objects acheived with the use of Java Lambda expression and Steam API in Java 8 and above. For the sake of simplicity, Lists of Strings are used for a mock representation of objects. 
+WebPagination.java demonstrates the pagination and sorting functionality of Java objects achieved with the use of Java Lambda expression and Steam API in Java 8 and above. For the sake of simplicity, Lists of Strings are used for a mock representation of objects. 
 
 Function under test - fetchItemsToDisplay()
 
@@ -36,13 +36,13 @@ Program Output -
 
 ```
 
-Web Pagination Demonstration - using Java Lambda expression and Steam API in Java 8+
+Web Pagination Demonstration 
+Using Java Lambda expression and Steam API in Java 8+
 *****************************************************
-
 
 Item name, Relevance and Price
 
-Sample Input:
+Sample Input: 
 [[item1, 10, 15.01], [item2, 3, 4.99], [item3, 17, 8.66]]
 
 
